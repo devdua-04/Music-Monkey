@@ -1,0 +1,60 @@
+body{
+    background-color:burlywood;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    display: flex;
+    height: 7.5vh;
+    background-color: green ;
+    color: black;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.logo img{
+    width:120px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.container{
+    height: 75vh    ;
+}
+
+
+.bottom{
+    position: sticky;
+    height: 15vh;
+    background-color: green;
+    color: black;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom input{
+    width: 50%;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    padding: 0 5px;
+}
