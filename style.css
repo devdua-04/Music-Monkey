@@ -33,10 +33,37 @@ nav ul li{
 }
 
 .container{
-    height: 75vh    ;
+    min-height: 70vh;
+    width: 75%;
+    background-color: black;
+    color: white;
+    background-image: url("bg.jpeg");
+    margin: 1% auto;
+    padding: 1%;
+    display: flex;
+    border-radius: 12px;
 }
-
-
+.songItem{
+    display: flex;
+    height: 4vh;
+    margin:5% 5%;
+    color: black;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 34px;
+    align-items: center;
+}
+.songItem .timeStamp{
+    margin:0 2%;
+}
+.songItem i{
+    cursor: pointer;
+}
+.songItem img{
+    margin:0 5%;
+    width: 30px;
+    border-radius: 34px;
+}
 .bottom{
     position: sticky;
     height: 15vh;
@@ -49,6 +76,13 @@ nav ul li{
     flex-direction: column;
 }
 
+.bottom .SongInfo{
+    position: absolute;
+    left: 25%;
+}
+.SongInfo img{
+    width: 7%
+}
 .bottom input{
     width: 50%;
 }
@@ -56,5 +90,6 @@ nav ul li{
     margin-top: 10px;
 }
 .icons i{
+    cursor: pointer;
     padding: 0 5px;
 }
