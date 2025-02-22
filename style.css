@@ -21,8 +21,15 @@ nav ul li{
     padding: 0 12px;
 }
 
+nav li:hover{
+    color: white;
+    font-size: larger;
+}
+
 .logo img{
+    margin: 1% 1%;
     width:120px;
+    padding: 1px;
 }
 
 .logo{
@@ -45,6 +52,7 @@ nav ul li{
 }
 .songItem{
     display: flex;
+    width: 100%;
     height: 4vh;
     margin:5% 5%;
     color: black;
@@ -74,6 +82,7 @@ nav ul li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* padding: 0 1%; */
 }
 
 .bottom .SongInfo{
@@ -84,6 +93,8 @@ nav ul li{
     width: 7%
 }
 .bottom input{
+    border: 2mm;
+    color: blue;
     width: 50%;
 }
 .icons{
